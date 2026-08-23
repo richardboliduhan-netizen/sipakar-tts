@@ -1,0 +1,607 @@
+/* =====================================
+   HALAMAN LAYANAN - KHUSUS HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    /* Header halaman */
+    .page-header {
+        padding: 35px 15px !important;
+    }
+
+    .page-header h1 {
+        font-size: 24px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 8px !important;
+    }
+
+    .page-header p {
+        font-size: 13px !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* Area layanan */
+    .service-card {
+        padding: 18px 14px !important;
+        min-height: auto !important;
+    }
+
+    /* Icon */
+    .service-card > i {
+        font-size: 28px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /* Judul layanan */
+    .service-card h4 {
+        font-size: 16px !important;
+        margin-bottom: 6px !important;
+    }
+
+    /* Deskripsi */
+    .service-card p {
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* Tombol */
+    .service-card .btn {
+        font-size: 11px !important;
+        padding: 6px 10px !important;
+    }
+
+    /* Jarak antar card */
+    .row.g-4 {
+        --bs-gutter-y: 0.8rem;
+    }
+
+}
+/* =====================================
+   HALAMAN PERSYARATAN - TAMPILAN HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    /* Header halaman */
+    .page-header {
+        padding: 30px 15px !important;
+    }
+
+    .page-header h1 {
+        font-size: 23px !important;
+        line-height: 1.3;
+    }
+
+    .page-header p {
+        font-size: 13px !important;
+        line-height: 1.5;
+    }
+
+
+    /* Card persyaratan */
+    .card-header {
+        padding: 13px 15px !important;
+    }
+
+    .card-header h4 {
+        font-size: 16px !important;
+    }
+
+
+    /* Isi persyaratan */
+    .card-body {
+        padding: 15px !important;
+    }
+
+    .list-group-item {
+        font-size: 13px !important;
+        padding: 11px 8px !important;
+        line-height: 1.5 !important;
+    }
+
+    .list-group-item i {
+        font-size: 12px !important;
+        margin-right: 5px;
+    }
+
+
+    /* Kotak perhatian */
+    .card-body .alert {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        padding: 12px !important;
+        margin-top: 15px !important;
+    }
+
+
+    /* Tombol kembali */
+    .card-body > .btn {
+        font-size: 12px !important;
+        padding: 7px 12px !important;
+    }
+
+
+    /* Gambar layanan */
+    .col-lg-5 img {
+        max-width: 85%;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+/* =====================================
+   SAMSAT KELILING - LOKASI PELAYANAN HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    /* Card lokasi pelayanan */
+    .location-card {
+        padding: 16px !important;
+        border-radius: 12px !important;
+    }
+
+    /* Judul lokasi */
+    .location-card h4,
+    .location-card h5 {
+        font-size: 16px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /* Icon */
+    .location-card i {
+        font-size: 20px !important;
+    }
+
+    /* Alamat / informasi lokasi */
+    .location-card p {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 8px !important;
+    }
+
+    /* Tombol Google Maps */
+    .location-card .btn {
+        font-size: 11px !important;
+        padding: 7px 11px !important;
+    }
+
+}
+/* =====================================
+   SAMLING - LOKASI PELAYANAN HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    /* Card utama lokasi */
+    .location-list {
+        margin-top: 5px;
+    }
+
+    .location-list .location-card {
+        padding: 12px 13px !important;
+        margin-bottom: 10px !important;
+        border-radius: 10px !important;
+    }
+
+    /* Nama lokasi */
+    .location-list .location-card h5 {
+        font-size: 14px !important;
+        margin-bottom: 4px !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Alamat */
+    .location-list .location-card p {
+        font-size: 12px !important;
+        margin-bottom: 7px !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Tombol */
+    .location-list .location-card .btn {
+        font-size: 11px !important;
+        padding: 5px 9px !important;
+        border-radius: 6px !important;
+    }
+
+    /* Icon tombol */
+    .location-list .location-card .btn i {
+        font-size: 11px !important;
+    }
+
+    /* Card pembungkus */
+    .col-lg-6 > .card {
+        padding: 15px !important;
+        border-radius: 14px !important;
+    }
+
+    /* Judul Lokasi Pelayanan */
+    .col-lg-6 > .card h4 {
+        font-size: 17px !important;
+        margin-bottom: 12px !important;
+    }
+
+}
+/* =====================================
+   HERO LOCATION - HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    .hero-location {
+        padding: 16px !important;
+        margin-top: 15px !important;
+        border-radius: 12px !important;
+    }
+
+    .hero-location h5 {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .hero-location p {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .hero-location .btn {
+        font-size: 12px !important;
+        padding: 7px 11px !important;
+    }
+
+}
+/* =====================================
+   BERANDA / HERO - KHUSUS HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    .hero {
+        padding: 35px 15px !important;
+    }
+
+    .hero-content h5 {
+        font-size: 13px !important;
+        margin-bottom: 6px !important;
+    }
+
+    .hero-content h1 {
+        font-size: 30px !important;
+        line-height: 1.15 !important;
+        margin-bottom: 8px !important;
+    }
+
+    .hero-content h3 {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 12px !important;
+    }
+
+    .hero-content p {
+        font-size: 12px !important;
+        line-height: 1.6 !important;
+        margin-bottom: 12px !important;
+    }
+
+    .hero-content blockquote {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 0 !important;
+    }
+
+}
+/* =====================================
+   FOTO PROFIL UPTD
+===================================== */
+
+.profile-photo-placeholder {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #e9eef5;
+    border: 1px solid #d9e1eb;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.placeholder-content {
+    text-align: center;
+    color: #7a8797;
+}
+
+.placeholder-content i {
+    display: block;
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+.placeholder-content span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* ===========================
+   HP
+=========================== */
+
+@media (max-width: 576px) {
+
+    .profile-photo-placeholder {
+        border-radius: 12px;
+    }
+
+    .placeholder-content i {
+        font-size: 35px;
+    }
+
+    .placeholder-content span {
+        font-size: 12px;
+    }
+
+}
+/* =====================================
+   PENGUMUMAN
+===================================== */
+
+.announcement-card {
+    width: 100%;
+    text-align: center;
+}
+
+.announcement-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+
+/* HP */
+
+@media (max-width: 576px) {
+
+    .announcement-card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+/* =====================================
+   KONTAK - RESPONSIVE HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    .contact-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contact-section .section-title {
+        margin-bottom: 30px;
+    }
+
+    .contact-section .section-title h2 {
+        font-size: 24px;
+    }
+
+    .contact-section .section-title p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .contact-card {
+        padding: 20px !important;
+        border-radius: 14px;
+    }
+
+    .contact-card-title {
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .contact-card-title i {
+        font-size: 20px;
+    }
+
+    .contact-card-title h4 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .social-contact-item {
+        padding: 12px 10px;
+        gap: 12px;
+    }
+
+    .social-contact-item > i {
+        font-size: 22px;
+        min-width: 28px;
+    }
+
+    .social-contact-item strong {
+        font-size: 14px;
+    }
+
+    .social-contact-item small {
+        font-size: 11px;
+    }
+
+    .contact-location-item {
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .contact-location-item > i {
+        font-size: 20px;
+        min-width: 25px;
+    }
+
+    .contact-location-item strong {
+        font-size: 14px;
+    }
+
+    .contact-location-item p {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+
+    .contact-card .btn {
+        font-size: 13px;
+        padding: 10px 16px;
+    }
+
+}
+/* =====================================
+   FOOTER - RESPONSIVE HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    .footer {
+        padding: 30px 0 18px;
+    }
+
+    .footer h5 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .footer ul {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer ul li {
+        margin-bottom: 6px;
+    }
+
+    .footer ul li a {
+        font-size: 12px;
+    }
+
+    .footer .social-media {
+        gap: 10px;
+    }
+
+    .footer .social-media a {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .footer hr {
+        margin: 20px 0 15px;
+    }
+
+    .footer .copyright {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+}
+/* =====================================
+   JAM DIGITAL - RESPONSIVE HP
+===================================== */
+
+@media (max-width: 576px) {
+
+    .digital-clock {
+        font-size: 11px;
+        gap: 5px;
+    }
+
+    .digital-clock i {
+        font-size: 13px;
+    }
+
+    #datetime {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+}
+/* ===========================
+   PENGUMUMAN - MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+    .announcement-card {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .announcement-card img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+/* ===========================
+   FIX HERO MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+    .hero-content {
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    .hero-content blockquote {
+        height: auto !important;
+        margin-bottom: 15px !important;
+        position: static !important;
+    }
+
+    .hero-announcement-btn {
+        display: inline-flex !important;
+        position: static !important;
+        width: auto;
+        height: auto !important;
+        margin: 0 0 25px 0 !important;
+        padding: 10px 18px !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+
+}
+/* ===========================
+   GALERI - MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+    .gallery-section {
+        padding: 35px 15px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .gallery-item {
+        border-radius: 8px;
+    }
+
+    .gallery-item img {
+        aspect-ratio: 4 / 3;
+    }
+
+}

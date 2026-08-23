@@ -1,0 +1,1329 @@
+/* ==========================================================
+   HERO SECTION
+========================================================== */
+
+.hero{
+
+    background: linear-gradient(135deg,#eef6ff,#ffffff);
+
+    min-height: calc(100vh - 150px);
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.hero-content h5{
+
+    color: var(--primary);
+
+    font-size:18px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.hero-content h1{
+
+    font-size:56px;
+
+    font-weight:800;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.hero-content h3{
+
+    font-size:28px;
+
+    font-weight:600;
+
+    color:#1E293B;
+
+    margin-bottom:25px;
+
+}
+
+.hero-content p{
+
+    font-size:17px;
+
+    color:#64748B;
+
+    text-align:justify;
+
+}
+
+.hero-content blockquote{
+
+    margin-top:30px;
+
+    padding-left:18px;
+
+    border-left:5px solid var(--accent);
+
+    color:var(--primary);
+
+    font-size:20px;
+
+    font-style:italic;
+
+    font-weight:600;
+
+}
+
+.hero-image{
+
+    text-align:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:520px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.4s;
+
+}
+
+.hero-image img:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ==========================================================
+   LOKASI KANTOR
+========================================================== */
+
+.location-section{
+
+    background:#ffffff;
+
+}
+
+.location-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.location-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:18px;
+
+    margin-bottom:30px;
+
+}
+
+.location-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+.location-item i{
+
+    font-size:28px;
+
+    color:var(--primary);
+
+}
+
+.location-item h5{
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+    color:#1E293B;
+
+}
+
+.location-item p{
+
+    margin:0;
+
+    color:#64748B;
+
+}
+
+.location-item a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    word-break:break-word;
+
+}
+
+.location-item a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================================================
+   SECTION ANIMATION
+========================================================== */
+
+.hero,
+.location-section{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+/* =====================================
+PAGE HEADER
+===================================== */
+
+.page-header{
+
+    background:#eef5ff;
+
+    padding:70px 0;
+
+}
+
+.page-header h1{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+.page-header p{
+
+    color:#64748b;
+
+}
+
+/* =====================================
+SERVICE CARD
+===================================== */
+
+.service-card{
+
+    background:#ffffff;
+    border-radius:22px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    height:100%;
+
+    display:flex;
+    flex-direction:column;
+
+    box-shadow:0 15px 35px rgba(13,110,253,.08);
+
+    transition:.35s;
+
+    border:1px solid #eef2f7;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 45px rgba(13,110,253,.18);
+
+}
+
+.service-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:6px;
+
+    background:#0d6efd;
+
+}
+.service-card i{
+
+    font-size:65px;
+
+    color:#0d6efd;
+
+    margin-bottom:25px;
+
+}
+.service-card h4{
+
+    font-weight:700;
+
+    font-size:30px;
+
+    margin-bottom:18px;
+
+    color:#1d3557;
+
+}
+.service-card p{
+
+    flex:1;
+
+    color:#6c757d;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+.service-card .btn{
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-weight:600;
+
+}
+#layanan{
+
+    background:#f4f8fd;
+
+    padding:80px 0;
+
+}
+/* ===========================
+   SAMSAT KELILING
+=========================== */
+
+.location-card{
+
+    border:1px solid #e9ecef;
+
+    border-radius:15px;
+
+    padding:18px;
+
+    margin-bottom:18px;
+
+    transition:.3s;
+
+    background:#fff;
+
+}
+
+.location-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.location-card h5{
+
+    color:#0d6efd;
+
+    font-weight:700;
+
+}
+
+.location-card p{
+
+    color:#666;
+
+    margin-bottom:15px;
+
+}
+
+.location-card .btn{
+
+    border-radius:30px;
+
+    padding:8px 18px;
+
+    font-weight:600;
+
+}
+.location-list{
+    height:auto;
+    overflow:visible;
+}
+
+/* scrollbar */
+.location-list::-webkit-scrollbar{
+    width:8px;
+}
+
+.location-list::-webkit-scrollbar-thumb{
+    background:#0d6efd;
+    border-radius:20px;
+}
+
+.location-list::-webkit-scrollbar-track{
+    background:#f1f1f1;
+}
+/* Gambar Jadwal Samsat */
+.jadwal-img{
+    width:100%;
+    max-width:520px;
+    border-radius:20px;
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+.location-card{
+    transition:0.3s;
+}
+
+.location-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+/* =====================================
+   KONTAK
+===================================== */
+
+.contact-section{
+    padding:80px 0;
+}
+
+.contact-card{
+
+    height:100%;
+
+    background:#fff;
+
+    padding:35px 25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s ease;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-7px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.contact-icon{
+
+    width:70px;
+
+    height:70px;
+
+    margin:0 auto 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#eaf4ff;
+
+    color:#005BAC;
+
+    font-size:30px;
+
+}
+
+.contact-card h5{
+
+    color:#005BAC;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+.contact-card p{
+
+    color:#64748b;
+
+    min-height:55px;
+
+}
+
+.contact-card .btn{
+
+    border-radius:50px;
+
+    padding:10px 25px;
+
+    font-weight:600;
+
+}
+
+
+/* =====================================
+   GOOGLE MAPS
+===================================== */
+
+.contact-map-card{
+
+    background:#fff;
+
+    padding:40px 30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-map-card > i{
+
+    font-size:45px;
+
+    color:#005BAC;
+
+}
+
+.contact-map-card h4{
+
+    margin-top:15px;
+
+    color:#005BAC;
+
+    font-weight:700;
+
+}
+
+.contact-map-card p{
+
+    color:#64748b;
+
+    margin:15px auto 25px;
+
+    max-width:650px;
+
+}
+
+
+/* =====================================
+   SOCIAL MEDIA
+===================================== */
+
+.social-contact h4{
+
+    color:#005BAC;
+
+    font-weight:700;
+
+}
+
+.social-contact p{
+
+    color:#64748b;
+
+}
+
+.social-contact .social-media{
+
+    display:flex;
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+.social-contact .social-media a{
+
+    width:48px;
+
+    height:48px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#005BAC;
+
+    color:#fff;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.social-contact .social-media a:hover{
+
+    background:#FFC107;
+
+    color:#005BAC;
+
+    transform:translateY(-3px);
+
+}
+/* =====================================
+   PENGADUAN
+===================================== */
+
+.complaint-section{
+
+    padding:80px 0;
+
+}
+
+.complaint-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.complaint-info{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:15px;
+
+    background:#eaf4ff;
+
+    padding:18px 20px;
+
+    border-radius:12px;
+
+    margin-bottom:30px;
+
+}
+
+.complaint-info i{
+
+    color:#005BAC;
+
+    font-size:22px;
+
+    margin-top:3px;
+
+}
+
+.complaint-info p{
+
+    margin:0;
+
+    color:#475569;
+
+    line-height:1.7;
+
+}
+
+.complaint-card .form-label{
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.complaint-card .form-control,
+.complaint-card .form-select{
+
+    border:1px solid #dee2e6;
+
+    border-radius:10px;
+
+    padding:12px 15px;
+
+}
+
+.complaint-card .form-control:focus,
+.complaint-card .form-select:focus{
+
+    border-color:#005BAC;
+
+    box-shadow:0 0 0 .2rem rgba(0,91,172,.12);
+
+}
+
+.complaint-card textarea{
+
+    resize:vertical;
+
+}
+
+.complaint-card .btn{
+
+    border-radius:50px;
+
+    padding:12px 30px;
+
+    font-weight:600;
+
+}
+/* ==========================================================
+   HERO - PENYESUAIAN POSISI
+========================================================== */
+
+.hero .row {
+    align-items: flex-start !important;
+}
+
+.hero-content {
+    padding-top: 0;
+}
+
+.hero-image {
+    margin-top: 0;
+}
+
+.hero-location {
+    margin-top: 20px;
+}
+/* ==========================================================
+   HALAMAN KONTAK KAMI
+========================================================== */
+
+.contact-section {
+    padding: 70px 0 90px;
+    background: var(--light);
+}
+
+
+/* =========================
+   JUDUL HALAMAN
+========================= */
+
+.contact-section .section-title {
+    margin-bottom: 45px;
+}
+
+.contact-section .section-title h2 {
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.contact-section .section-title h2 i {
+    margin-right: 8px;
+}
+
+.contact-section .section-title p {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.contact-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 35px 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    border: 1px solid rgba(0, 91, 172, 0.08);
+}
+
+
+/* =========================
+   JUDUL CARD
+========================= */
+
+.contact-card-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.contact-card-title i {
+    color: var(--primary);
+    font-size: 24px;
+}
+
+.contact-card-title h4 {
+    margin: 0;
+    color: var(--primary);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   MEDIA SOSIAL
+========================= */
+
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    width: 100%;
+
+    padding: 16px 18px;
+
+    background: #f8fafc;
+
+    border: 1px solid #edf2f7;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: var(--text);
+
+    transition: all 0.3s ease;
+}
+
+.social-contact-item:hover {
+    transform: translateY(-2px);
+
+    background: #ffffff;
+
+    border-color: rgba(0, 91, 172, 0.20);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ICON SOSMED */
+
+.social-contact-item > i {
+    width: 42px;
+    min-width: 42px;
+
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf3ff;
+
+    color: var(--primary);
+
+    border-radius: 10px;
+
+    font-size: 21px;
+}
+
+
+/* TEXT SOSMED */
+
+.social-contact-item div {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.social-contact-item strong {
+    color: #1e293b;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin-bottom: 3px;
+}
+
+.social-contact-item small {
+    color: #64748b;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   LOKASI
+========================= */
+
+.contact-location-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 18px;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.contact-location-item:last-of-type {
+    border-bottom: none;
+}
+
+
+/* ICON LOKASI */
+
+.contact-location-item > i {
+    width: 42px;
+    min-width: 42px;
+
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf3ff;
+
+    color: var(--primary);
+
+    border-radius: 10px;
+
+    font-size: 20px;
+}
+
+
+/* TEXT LOKASI */
+
+.contact-location-item div {
+    flex: 1;
+
+    text-align: left;
+}
+
+.contact-location-item strong {
+    display: block;
+
+    color: #1e293b;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin-bottom: 6px;
+}
+
+.contact-location-item p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   GOOGLE MAPS
+========================= */
+
+.contact-card .btn-primary {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 11px 22px;
+
+    border-radius: 9px;
+
+    font-size: 14px;
+
+    font-weight: 500;
+}
+
+
+/* =========================
+   JARAK ANTAR CARD
+========================= */
+
+.contact-section .mb-5 {
+    margin-bottom: 30px !important;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+    .contact-section {
+        padding: 60px 0 70px;
+    }
+
+    .contact-card {
+        padding: 30px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .contact-section {
+        padding: 45px 0 60px;
+    }
+
+    .contact-section .section-title h2 {
+        font-size: 26px;
+    }
+
+    .contact-section .section-title p {
+        font-size: 14px;
+    }
+
+    .contact-card {
+        padding: 25px 20px;
+    }
+
+    .contact-card-title h4 {
+        font-size: 19px;
+    }
+
+    .social-contact-item {
+        padding: 14px;
+    }
+
+    .social-contact-item > i,
+    .contact-location-item > i {
+        width: 38px;
+        min-width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+}
+/* ==========================================================
+   CEK PAJAK
+========================================================== */
+
+.cekpajak-card {
+    background: var(--white);
+    padding: 45px 50px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0, 91, 172, 0.08);
+}
+
+.cekpajak-icon {
+    width: 75px;
+    height: 75px;
+
+    margin: 0 auto 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf3ff;
+
+    color: var(--primary);
+
+    border-radius: 50%;
+
+    font-size: 32px;
+}
+
+.cekpajak-card h3 {
+    color: var(--primary);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.cekpajak-card > p {
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.8;
+
+    max-width: 650px;
+
+    margin: 0 auto 25px;
+}
+
+.cekpajak-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-align: left;
+
+    background: #f8fafc;
+
+    border-left: 4px solid var(--primary);
+
+    padding: 16px 18px;
+
+    border-radius: 10px;
+
+    color: #475569;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+.cekpajak-info i {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.cekpajak-card .btn-success {
+    padding: 12px 28px;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+}
+
+.cekpajak-card .btn-success i {
+    margin-right: 7px;
+}
+
+.cekpajak-note {
+    margin-top: 15px !important;
+
+    margin-bottom: 0 !important;
+
+    color: #64748b !important;
+
+    font-size: 13px !important;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 576px) {
+
+    .cekpajak-card {
+        padding: 30px 20px;
+    }
+
+    .cekpajak-card h3 {
+        font-size: 22px;
+    }
+
+    .cekpajak-info {
+        align-items: flex-start;
+    }
+
+}
+/* ==========================================================
+   PROFIL UPTD
+========================================================== */
+
+.profile-card {
+    background: var(--white);
+    padding: 30px 35px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0, 91, 172, 0.08);
+}
+
+.profile-card h4 {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.profile-card h4 i {
+    margin-right: 7px;
+}
+
+.profile-card p {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.profile-card ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.profile-card li {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
+
+.profile-card li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 576px) {
+
+    .profile-card {
+        padding: 25px 20px;
+    }
+
+    .profile-card h4 {
+        font-size: 18px;
+    }
+
+    .profile-card p,
+    .profile-card li {
+        font-size: 13px;
+    }
+
+}
+/* ===========================
+   PENGUMUMAN
+=========================== */
+
+.announcement-card {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.announcement-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.announcement-card img:hover {
+    transform: translateY(-4px);
+}
+/* ===========================
+   TOMBOL PENGUMUMAN HERO
+=========================== */
+
+.hero-announcement-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    padding: 11px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.hero-announcement-btn:hover {
+    transform: translateY(-2px);
+}
+/* ===========================
+   GALERI
+=========================== */
+
+.gallery-section {
+    padding: 50px 0;
+    background: #f8fafc;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-item img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}

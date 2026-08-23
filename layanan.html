@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Layanan | SIPAKAR TTS</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+ <!-- ===========================
+         TOP BAR
+    ============================ -->
+
+<div class="topbar">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Logo -->
+
+            <div class="col-lg-6">
+
+                <div class="topbar-logo">
+
+                    <img
+                        src="img/logoprovinsi.png"
+                        alt="Logo Provinsi NTT">
+
+                    <img
+                        src="img/logosipakar.png"
+                        alt="Logo SIPAKAR">
+
+                    <div>
+
+                        <h5>SIPAKAR TTS</h5>
+
+                        <small>
+                            Sistem Informasi Pajak Kendaraan Bermotor
+                            Timor Tengah Selatan
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Info -->
+
+            <div class="col-lg-6">
+
+                <div class="topbar-right">
+
+                    <div class="digital-clock">
+                <i class="bi bi-clock-fill"></i>
+                <span id="datetime"></span>
+                    </div>
+
+                    <div class="visitor">
+
+                        <i class="bi bi-people-fill"></i>
+
+                        <span id="visitorCount">
+
+                            0
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ===========================
+     NAVBAR
+=========================== -->
+<nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+
+    <div class="container">
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+            id="navbarNav">
+
+          <ul class="navbar-nav mx-auto">
+
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">
+            Beranda
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="profil.html">
+            Profil
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="layanan.html">
+            Layanan
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="samling.html">
+            Samsat Keliling
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="pengumuman.html">
+            Pengumuman
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="galeri.html">
+            Galeri
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="kontak.html">
+            Kontak Kami
+        </a>
+    </li>
+
+</ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<section class="page-header">
+
+<div class="container text-center">
+
+<h1>Layanan Pajak Kendaraan Bermotor</h1>
+
+<p>
+
+Pilih layanan yang ingin Anda lihat persyaratannya.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="py-5">
+
+    <div class="container">
+
+        <!-- Baris Pertama -->
+
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-car-front-fill"></i>
+                    <h4>PKB Tahunan</h4>
+                    <p>Pembayaran Pajak Kendaraan Bermotor Tahunan.</p>
+                    <a href="layanan/pkb-tahunan.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <h4>PKB 5 Tahunan</h4>
+                    <p>Perpanjangan STNK lima tahunan.</p>
+                    <a href="layanan/pkb-5-tahunan.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-car-front"></i>
+                    <h4>Kendaraan Baru</h4>
+                    <p>Registrasi kendaraan baru dan penerbitan STNK.</p>
+                    <a href="layanan/bbnkb.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                 <i class="bi bi-box-arrow-right"></i>
+                    <h4>Mutasi Keluar</h4>
+                    <p>Mutasi Keluar kendaraan ke luar daerah.</p>
+                    <a href="layanan/mutasi-masuk.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Baris Kedua -->
+
+        <div class="row g-4 justify-content-center mt-2">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-person-vcard-fill"></i>
+                    <h4>Balik Nama</h4>
+                    <p>Pelayanan Balik Nama Kendaraan Bermotor.</p>
+                    <a href="layanan/balik-nama.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-tools"></i>
+                    <h4>Ubah Bentuk</h4>
+                    <p>Perubahan bentuk dan ganti warna kendaraan bermotor.</p>
+                    <a href="layanan/ubah-bentuk.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-file-earmark-text-fill"></i>
+                    <h4>Duplikat STNK</h4>
+                    <p>Penggantian STNK yang hilang atau rusak.</p>
+                    <a href="layanan/duplikat-stnk.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6">
+                <div class="service-card">
+                    <i class="bi bi-file-earmark-check-fill"></i>
+                    <h4>Cek Pajak</h4>
+                    <p>Pengecekan Pajak Kendaraan.</p>
+                    <a href="layanan/pajak.html" class="btn btn-primary">Lihat Persyaratan</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Menu -->
+
+            <div class="col-lg-6">
+
+                <h5>Menu Cepat</h5>
+
+                <ul>
+
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="samling.html">Samsat Keliling</a></li>
+                    <li><a href="pengumuman.html">Pengumuman</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="kontak.html">Kontak Kami</a></li>
+
+
+                </ul>
+
+            </div>
+
+            <!-- Media Sosial -->
+
+            <div class="col-lg-6">
+
+                <h5>Media Sosial</h5>
+
+                <div class="social-media">
+
+                    <a href="https://www.instagram.com/uptdpendapatantts?igsh=MTlsc3d2OWQ4MDFrNA==" target="_blank">
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+
+                    <a href="https://youtube.com/@uptdbapendawilayahkabupate9619?si=Ix_SYylIiCZXmaLY" target="_blank">
+
+                        <i class="bi bi-youtube"></i>
+
+                    </a>
+
+                     <a href="https://www.tiktok.com/@uptdbapedakabupatentts?_r=1&_t=ZS-993vyQ6jdHY" target="_blank">
+
+                        <i class="bi bi-tiktok"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="copyright text-center">
+
+            © 2026 Fransesco Taat Pajak.
+            <br>
+            All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+    <!-- Back To Top -->
+
+    <button id="backToTop">
+
+        <i class="bi bi-arrow-up-short"></i>
+
+    </button>
+
+    <!-- Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Javascript -->
+
+    <script src="js/app.js"></script>
+    <script src="js/visitor.js"></script>
+    <script src="js/jam.js"></script>
+
+</body>
+
+</html>
